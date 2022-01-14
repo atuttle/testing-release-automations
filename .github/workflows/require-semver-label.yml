@@ -1,8 +1,6 @@
 name: Require Semver Label
 
 on:
-  pull_request_target:
-    types: [opened, reopened, labeled, unlabeled, ready_for_review, synchronize]
   pull_request:
     types: [opened, reopened, labeled, unlabeled, ready_for_review, synchronize]
 
