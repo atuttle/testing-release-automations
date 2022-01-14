@@ -1,0 +1,12 @@
+name: Require Semver Label
+
+on:
+  pull_request:
+    types: [opened, reopened, labeled, unlabeled, ready_for_review, synchronize]
+
+jobs:
+  check-labels:
+    uses: NathanielHill/check-pr-label-action@v4.0.0
+    with:
+      github-token: '${{ secrets.GITHUB_TOKEN }}'
+      valid-labels: 'Semver: MAJOR, Semver: MINOR, Semver: PATCH'
