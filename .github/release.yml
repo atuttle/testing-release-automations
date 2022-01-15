@@ -9,6 +9,6 @@ changelog:
     - title: New Features 🎉
       labels:
         - 'Semver: MINOR'
-    - title: Other Changes & Fixes
+    - title: Bug Fixes 🐛
       labels:
         - 'Semver: PATCH'
