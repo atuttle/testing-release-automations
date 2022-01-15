@@ -55,6 +55,6 @@ jobs:
         github-token: ${{secrets.GITHUB_TOKEN}}
         script: |
           await github.request(`POST /repos/${{ github.repository }}/releases`, {
-            tag_name: "${{ steps.package-version.outputs.current-version}}",
+            tag_name: "v${{ steps.package-version.outputs.current-version }}",
             generate_release_notes: true
           });
