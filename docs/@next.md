@@ -1248,3 +1248,5 @@ And that &mdash;in a nutshell&mdash; is custom Serializers.
 ## Release Notes
 
 Starting with Taffy v4.0.0 all release notes are [available on GitHub](https://github.com/atuttle/taffy/releases).
+
+some random change
