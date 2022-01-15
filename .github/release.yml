@@ -5,10 +5,10 @@ changelog:
   categories:
     - title: Breaking Changes 🛠
       labels:
-        - release-MAJOR
+        - 'Semver: MAJOR'
     - title: New Features 🎉
       labels:
-        - release-MINOR
+        - 'Semver: MINOR'
     - title: Other Changes & Fixes
       labels:
-        - release-PATCH
+        - 'Semver: PATCH'
