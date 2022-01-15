@@ -60,4 +60,5 @@ jobs:
           });
 
     - name: Cut a docs file for the new release
-      run: cp docs/@next.md ${{ steps.package-version.outputs.current-version }}.md
+      run: |
+        cat docs/@next.md | sed 's/@version@/${{ steps.package-version.outputs.current-version }}/gi' > docs/${{ steps.package-version.outputs.current-version }}.md
