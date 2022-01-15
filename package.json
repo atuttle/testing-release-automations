@@ -1,0 +1,13 @@
+{
+  "name": "testing-release-automations",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atuttle/testing-release-automations.git"
+  }
+}
