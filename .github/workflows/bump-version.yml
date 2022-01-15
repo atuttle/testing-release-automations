@@ -62,3 +62,6 @@ jobs:
     - name: Cut a docs file for the new release
       run: |
         cat docs/@next.md | sed 's/@version@/${{ steps.package-version.outputs.current-version }}/gi' > docs/${{ steps.package-version.outputs.current-version }}.md
+        git add docs/${{ steps.package-version.outputs.current-version }}.md
+        git commit -m"New doc file ${{ steps.package-version.outputs.current-version }}.md"
+        git push
